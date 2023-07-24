@@ -12,8 +12,8 @@
 			},
 			"contact": {
 				"homepage": "https://trinketables.laxla.quest/",
-				"issues": "https://github.com/LaylaMeower/Trinketable/issues",
-				"sources": "https://github.com/LaylaMeower/Trinketable"
+				"issues": "https://github.com/LaylaMeower/Trinketables/issues",
+				"sources": "https://github.com/LaylaMeower/Trinketables"
 			},
 			"icon": "assets/trinketables/icon.png",
 			"license": "MPL-2.0"
