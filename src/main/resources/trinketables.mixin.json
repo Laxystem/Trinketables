@@ -1,0 +1,8 @@
+{
+  "package": "quest.laxla.trinketables.mixin",
+  "mixins": [
+    "CatEntityMixin",
+    "TemptGoalMixin"
+  ]
+}
+

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cactus",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:sugar",
+    "minecraft:apple",
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:carrot",
+    "minecraft:golden_carrot",
+    "minecraft:melon_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:wheat_seeds",
+    "minecraft:wheat",
+    "minecraft:hay_block",
+    "minecraft:wheat_seeds",
+    "minecraft:bone"
+  ]
+}

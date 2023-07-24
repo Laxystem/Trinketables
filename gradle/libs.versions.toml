@@ -4,22 +4,31 @@ kotlin = "1.8.22"
 minecraft = "1.20.1"
 qfapi = "7.0.3+0.83.1-1.20.1"
 qkl = "2.1.0+kt.1.8.22+flk.1.9.4"
-loader = "0.19.1"
+loader = "0.19.2"
 mappings = "1.20.1+build.1"
 loom = "1.2.3"
 
+trinkets = "3.7.1"
+trinkets_polymer = "3.7.0+polymerport.1"
+
+menu = "7.2.1"
+
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
-qfapi = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api", version.ref = "qfapi" }
-qfapi_deprecated = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api-deprecated", version.ref = "qfapi" }
+quilt_api = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api", version.ref = "qfapi" }
+quilt_api_deprecated = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api-deprecated", version.ref = "qfapi" }
 
-
-qkl = { module = "org.quiltmc.quilt-kotlin-libraries:quilt-kotlin-libraries", version.ref = "qkl" }
+quilt_api_kotlin = { module = "org.quiltmc.quilt-kotlin-libraries:quilt-kotlin-libraries", version.ref = "qkl" }
 quilt_loader = { module = "org.quiltmc:quilt-loader", version.ref = "loader" }
 quilt_mappings = { module = "org.quiltmc:quilt-mappings", version.ref = "mappings" }
 
+trinkets = { module = "dev.emi:trinkets", version.ref = "trinkets" }
+trinkets_polymer = { module = "eu.pb4.polyport:trinkets", version.ref = "trinkets_polymer"}
+
+menu = { module = "com.terraformersmc:modmenu", version.ref = "menu" }
+
 [bundles]
-quilted_fabric_api = ["qfapi", "qfapi_deprecated"]
+quilted_fabric_api = ["quilt_api", "quilt_api_deprecated"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
