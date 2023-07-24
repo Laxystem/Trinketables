@@ -8,6 +8,7 @@ data class TrinketableBuilder internal constructor(
     var renderer: Identifier? = null,
     var behaviour: Identifier? = null
 ) {
+    @Suppress("unused")
     infix fun registeredAs(item: Item) = TrinketableItem(item, renderer, behaviour).also { Trinketables.trinkets.add(it) }
     infix fun registeredAs(tag: TagKey<Item>) = TrinketableTag(tag, renderer, behaviour).also { Trinketables.trinkets.add(it) }
 }

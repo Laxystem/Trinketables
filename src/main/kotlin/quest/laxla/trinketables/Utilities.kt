@@ -1,6 +1,5 @@
 package quest.laxla.trinketables
 
-import net.minecraft.item.Item
 import net.minecraft.registry.Registry
 import net.minecraft.registry.tag.TagKey
 import net.minecraft.util.Identifier
